@@ -4,7 +4,7 @@
 This project analyzes global energy consumption trends over the past 40+ years. The analysis focuses on patterns in energy usage, compares fossil fuels with renewable energy, and highlights trends that can support sustainability discussions and energy-related decision-making.
 
 ## 📊 Dataset
-- **Source:** Kaggle – [World Energy Consumption](https://www.kaggle.com/datasets/your-dataset-link)  
+- **Source:** Kaggle – [World Energy Consumption](https://www.kaggle.com/datasets/pralabhpoudel/world-energy-consumption)  
 - **Description:** Country-level energy consumption data covering multiple energy sources across decades.  
 - **Key Columns:** Country, Year, Energy Type, Consumption (TWh)
 
