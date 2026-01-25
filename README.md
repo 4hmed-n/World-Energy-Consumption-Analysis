@@ -1,29 +1,44 @@
 # World Energy Consumption Analysis
 
-## Project Description
-This project analyzes global energy consumption trends over the last 40+ years. The goal is to explore patterns in energy usage, compare fossil fuels versus renewable energy, and identify insights that could inform energy policy, sustainability, or investment decisions.
+## 📌 Overview
+This project analyzes global energy consumption trends over the past 40+ years. The analysis focuses on patterns in energy usage, compares fossil fuels with renewable energy, and highlights trends that can support sustainability discussions and energy-related decision-making.
 
-## Dataset
-The dataset is sourced from [Kaggle: World Energy Consumption](https://www.kaggle.com/datasets) and contains columns such as: Country, Year, Energy Type, and Consumption (TWh). It includes multiple energy sources across different countries and decades.
+## 📊 Dataset
+- **Source:** Kaggle – [World Energy Consumption](https://www.kaggle.com/datasets/your-dataset-link)  
+- **Description:** Country-level energy consumption data covering multiple energy sources across decades.  
+- **Key Columns:** Country, Year, Energy Type, Consumption (TWh)
 
-## Key Findings
-- Global energy consumption has steadily increased since 1980.  
-- Coal and oil remain dominant in many regions, while renewable energy sources are growing rapidly in others.  
-- Some countries have significantly reduced fossil fuel dependency and increased renewable energy adoption.  
-- Patterns reveal opportunities for sustainable energy planning and policy-making.
+## 🔍 Key Analysis Steps
+- Data cleaning and preprocessing  
+- Exploratory Data Analysis (EDA)  
+- Trend analysis across time and regions  
+- Visualization of energy source comparisons  
+- Linear regression / forecasting energy trends  
 
-## Skills Demonstrated
-- **Data Cleaning & Preprocessing:** Handling missing values, formatting data, preparing datasets for analysis using Python and Pandas.  
-- **Exploratory Data Analysis (EDA):** Identifying trends, correlations, and anomalies in large datasets.  
-- **Data Visualization:** Creating clear and informative visualizations using Matplotlib and Seaborn.  
-- **Optional Modeling:** Linear regression / forecasting energy trends.  
-- **Version Control & Documentation:** Using GitHub to organize and present the project professionally.
+## 📈 Key Insights
+- Global energy consumption has increased steadily since 1980.  
+- Fossil fuels (coal and oil) remain dominant in many regions, though renewable energy usage is growing significantly.  
+- Several countries show clear transitions toward renewable energy, reducing reliance on fossil fuels.  
+- Observed trends highlight opportunities and challenges for sustainable energy planning.
 
-## How to View
-The notebook already contains all code, outputs, and visualizations. You can view it directly on GitHub. No need to run anything to see results.  
+## 🛠 Tools & Technologies
+- Python  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+- Scikit-learn  
 
-If you want to rerun or modify the notebook:
-1. Open it in **Google Colab** (free, cloud-based) or on your local machine.  
-2. Install required libraries if not already installed:
+## 📁 Repository Structure
+- `world_energy_consumption.csv` – Dataset used for analysis  
+- `energy_consumption_analysis.ipynb` – Notebook containing the full analysis and modeling  
+- `README.md` – Project documentation  
+
+## ▶️ How to View
+The notebook includes all code, outputs, and visualizations and can be viewed directly on GitHub.
+
+To rerun or modify the analysis:
+1. Open the notebook in **Google Colab** or on your local machine.  
+2. Install required libraries if needed:
    ```bash
-   pip install pandas matplotlib seaborn scikit-learn
+   pip install pandas numpy matplotlib seaborn scikit-learn
