@@ -1,44 +1,35 @@
-# World Energy Consumption Analysis
+# World Energy Consumption Analysis 🌍
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/4hmed-n/World-Energy-Consumption-Analysis/blob/main/energy_consumption_analysis.ipynb)
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
 
 ## 📌 Overview
-This project analyzes global energy consumption trends over the past 40+ years. The analysis focuses on patterns in energy usage, compares fossil fuels with renewable energy, and highlights trends that can support sustainability discussions and energy-related decision-making.
+This project analyzes global energy consumption trends over the past 40+ years to identify patterns in usage and the transition toward sustainability. By comparing fossil fuel dominance against the rise of renewables, this analysis highlights critical trends that inform energy policy and forecasting.
 
 ## 📊 Dataset
-- **Source:** Kaggle – [World Energy Consumption](https://www.kaggle.com/datasets/pralabhpoudel/world-energy-consumption)  
-- **Description:** Country-level energy consumption data covering multiple energy sources across decades.  
-- **Key Columns:** Country, Year, Energy Type, Consumption (TWh)
+* **Source:** Kaggle – [World Energy Consumption](https://www.kaggle.com/datasets/pralabhpoudel/world-energy-consumption)
+* **Description:** A comprehensive country-level dataset covering multiple energy sources (coal, gas, oil, nuclear, renewable) across decades.
+* **Key Columns:** `Country`, `Year`, `Energy Type`, `Consumption (TWh)`, `CO2 Emissions`.
 
-## 🔍 Key Analysis Steps
-- Data cleaning and preprocessing  
-- Exploratory Data Analysis (EDA)  
-- Trend analysis across time and regions  
-- Visualization of energy source comparisons  
-- Linear regression / forecasting energy trends  
+## ⚙️ Technical Approach
+The analysis methodology includes:
+1.  **Data Preprocessing:** Cleaning missing values and standardizing units across different energy types.
+2.  **Exploratory Data Analysis (EDA):** Visualizing temporal trends and regional energy distributions.
+3.  **Comparative Analysis:** contrasting the growth rates of renewable energy vs. fossil fuels.
+4.  **Forecasting:** Implementing Linear Regression to project future energy demands and shifts in source dependency.
 
 ## 📈 Key Insights
-- Global energy consumption has increased steadily since 1980.  
-- Fossil fuels (coal and oil) remain dominant in many regions, though renewable energy usage is growing significantly.  
-- Several countries show clear transitions toward renewable energy, reducing reliance on fossil fuels.  
-- Observed trends highlight opportunities and challenges for sustainable energy planning.
+* **Global Growth:** Energy consumption has risen consistently since 1980, driven largely by industrializing nations.
+* **The Energy Mix:** While fossil fuels (coal, oil) remain the dominant baseline, renewable energy sources have seen exponential growth in the last decade.
+* **Regional Shifts:** Several developed nations show a clear decoupling of economic growth from fossil fuel reliance, marking a successful transition phase.
+* **Forecasting:** Trends suggest a continued rise in overall demand, necessitating accelerated renewable adoption to meet global climate goals.
 
-## 🛠 Tools & Technologies
-- Python  
-- Pandas  
-- NumPy  
-- Matplotlib  
-- Seaborn  
-- Scikit-learn  
+## 🚀 Usage (Run in Colab)
+You can run the full analysis in your browser without installing anything.
 
-## 📁 Repository Structure
-- `world_energy_consumption.csv` – Dataset used for analysis  
-- `energy_consumption_analysis.ipynb` – Notebook containing the full analysis and modeling  
-- `README.md` – Project documentation  
+1.  Click the **"Open in Colab"** badge at the top of this README.
+2.  **Important:** Since the dataset is hosted in this repository, run the following command in the first cell of the Colab notebook to download the data:
 
-## ▶️ How to View
-The notebook includes all code, outputs, and visualizations and can be viewed directly on GitHub.
-
-To rerun or modify the analysis:
-1. Open the notebook in **Google Colab** or on your local machine.  
-2. Install required libraries if needed:
-   ```bash
-   pip install pandas numpy matplotlib seaborn scikit-learn
+```python
+!wget [https://raw.githubusercontent.com/4hmed-n/World-Energy-Consumption-Analysis/main/world_energy_consumption.csv](https://raw.githubusercontent.com/4hmed-n/World-Energy-Consumption-Analysis/main/world_energy_consumption.csv)
